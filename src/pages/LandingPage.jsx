@@ -2,8 +2,6 @@ export default function LandingPage() {
   const features = [
     { icon: "📄", title: "ATS Score Analysis", desc: "Know exactly how your resume scores against real job descriptions" },
     { icon: "🎯", title: "Skill Gap Analysis", desc: "Find what skills you need for Google, TCS, Amazon and more" },
-    { icon: "📊", title: "Placement Prediction", desc: "AI predicts your placement probability with high accuracy" },
-    { icon: "💰", title: "Salary Prediction", desc: "Know your expected salary before the interview" },
     { icon: "🏢", title: "Company Match", desc: "Get matched to companies that fit your profile" },
     { icon: "🤖", title: "AI Career Chatbot", desc: "24/7 personal AI mentor for all your career questions" },
   ]
@@ -57,7 +55,7 @@ export default function LandingPage() {
       {/* Features */}
       <div style={{padding:'60px 40px',background:'white'}}>
         <h3 style={{textAlign:'center',fontSize:36,fontWeight:800,color:'#1a1a2e',marginBottom:8}}>Everything You Need to Get Placed</h3>
-        <p style={{textAlign:'center',color:'#666',marginBottom:48,fontSize:18}}>10 powerful AI features in one platform</p>
+        <p style={{textAlign:'center',color:'#666',marginBottom:48,fontSize:18}}>4 powerful AI features in one platform</p>
         <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(280px,1fr))',gap:24,maxWidth:1000,margin:'0 auto'}}>
           {features.map((f,i)=>(
             <div key={i}
