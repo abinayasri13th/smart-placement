@@ -40,12 +40,7 @@ export default function LandingPage() {
 
         {/* Stats */}
         <div style={{display:'flex',gap:40,justifyContent:'center',marginTop:60,flexWrap:'wrap'}}>
-          {[['500+','Students Placed'],['95%','Accuracy Rate'],['6','Top Companies'],['Free','To Use']].map(([num,label])=>(
-            <div key={label} style={{textAlign:'center'}}>
-              <div style={{fontSize:36,fontWeight:800,color:'#FFD700'}}>{num}</div>
-              <div style={{fontSize:14,opacity:0.8}}>{label}</div>
-            </div>
-          ))}
+          
         </div>
       </div>
 
