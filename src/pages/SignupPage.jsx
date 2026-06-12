@@ -58,7 +58,8 @@ export default function SignupPage() {
 
         <div style={{ textAlign: 'center', marginBottom: 28 }}>
           <div style={{ fontSize: 36 }}>🎯</div>
-          <h1 style={{ fontSize: 26, fontWeight: 800, color: '#6C63FF', margin: '8px 0 4px' }}>Join PlaceAI</h1>
+          <h1 style={{ fontSize: 26, fontWeight: 800, color: '#6C63FF', margin: '8px 0 4px' }}>Join QuickShot Placement
+          </h1>
           <p style={{ color: '#888', fontSize: 14 }}>Create your free account and get placed!</p>
         </div>
 

@@ -50,7 +50,7 @@ export default function ResumeUpload() {
     <div style={{ fontFamily: 'Segoe UI, sans-serif', background: '#f8f9ff', minHeight: '100vh' }}>
 
       <nav style={{ background: 'linear-gradient(135deg,#6C63FF,#4facfe)', padding: '14px 32px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <h1 style={{ color: 'white', fontSize: 22, fontWeight: 800, margin: 0 }}>🎯 PlaceAI</h1>
+        <h1 style={{ color: 'white', fontSize: 22, fontWeight: 800, margin: 0 }}>🎯QuickShot Placement</h1>
         <a href="/dashboard" style={{ color: 'white', textDecoration: 'none', fontSize: 14 }}>← Dashboard</a>
       </nav>
 

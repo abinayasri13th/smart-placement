@@ -13,7 +13,7 @@ export default function LandingPage() {
 
       {/* Navbar */}
       <nav style={{background:'linear-gradient(135deg,#6C63FF,#4facfe)',padding:'16px 40px',display:'flex',justifyContent:'space-between',alignItems:'center'}}>
-        <h1 style={{color:'white',fontSize:28,fontWeight:800,margin:0}}>🎯 PlaceAI</h1>
+        <h1 style={{color:'white',fontSize:28,fontWeight:800,margin:0}}>🎯QUICKSHORT PLACEMENT </h1>
         <div style={{display:'flex',gap:16}}>
           <a href="/login" style={{color:'white',textDecoration:'none',padding:'8px 20px',borderRadius:8,border:'2px solid white',fontWeight:600}}>Login</a>
           <a href="/signup" style={{background:'white',color:'#6C63FF',textDecoration:'none',padding:'8px 20px',borderRadius:8,fontWeight:700}}>Get Started</a>
@@ -27,7 +27,7 @@ export default function LandingPage() {
           <span style={{color:'#FFD700'}}>Dream Company</span>
         </h2>
         <p style={{fontSize:20,opacity:0.9,marginBottom:40,maxWidth:600,margin:'0 auto 40px'}}>
-          Upload your resume and get instant AI analysis, skill gap detection, and placement predictions
+          Upload your resume and get instant analysis, skill gap detection, and placement guidance
         </p>
         <div style={{display:'flex',gap:16,justifyContent:'center'}}>
           <a href="/signup" style={{background:'#FFD700',color:'#1a1a2e',padding:'16px 36px',borderRadius:12,textDecoration:'none',fontWeight:800,fontSize:18}}>
@@ -81,7 +81,7 @@ export default function LandingPage() {
       {/* CTA */}
       <div style={{background:'linear-gradient(135deg,#6C63FF,#4facfe)',padding:'60px 40px',textAlign:'center',color:'white'}}>
         <h3 style={{fontSize:36,fontWeight:800,marginBottom:16}}>Ready to Get Placed? 🚀</h3>
-        <p style={{fontSize:18,opacity:0.9,marginBottom:32}}>Join hundreds of students already using PlaceAI</p>
+        <p style={{fontSize:18,opacity:0.9,marginBottom:32}}>Join hundreds of students already using QUICKSHOT PLACEMENT</p>
         <a href="/signup" style={{background:'#FFD700',color:'#1a1a2e',padding:'16px 48px',borderRadius:12,textDecoration:'none',fontWeight:800,fontSize:20}}>
           Start for Free →
         </a>
@@ -89,7 +89,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <footer style={{background:'#1a1a2e',color:'#888',textAlign:'center',padding:'24px',fontSize:14}}>
-        © 2024 PlaceAI — Built for students, by students ❤️
+        © 2024  QUICKSHORT PLACEMENT— Built for students, by students ❤️
       </footer>
 
     </div>

@@ -45,14 +45,15 @@ export default function Settings() {
 
       {/* Navbar */}
       <nav style={{ background: 'linear-gradient(135deg,#6C63FF,#4facfe)', padding: '14px 32px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <h1 style={{ color: 'white', fontSize: 22, fontWeight: 800, margin: 0 }}>🎯 PlaceAI</h1>
+        <h1 style={{ color: 'white', fontSize: 22, fontWeight: 800, margin: 0 }}>🎯QuickShot Placement</h1>
         <a href="#" style={{ color: 'white', textDecoration: 'none', fontSize: 14 }}>← Dashboard</a>
       </nav>
 
       <div style={{ maxWidth: 700, margin: '40px auto', padding: '0 20px' }}>
 
         <h2 style={{ fontSize: 28, fontWeight: 800, color: '#1a1a2e', marginBottom: 8 }}>⚙️ Settings</h2>
-        <p style={{ color: '#888', marginBottom: 32 }}>Customize your PlaceAI experience</p>
+        <p style={{ color: '#888', marginBottom: 32 }}>Customize your QuickShot Placement
+           experience</p>
 
         {/* Notifications */}
         <div style={{ background: 'white', borderRadius: 16, padding: 24, boxShadow: '0 4px 20px rgba(0,0,0,0.06)', marginBottom: 20 }}>
