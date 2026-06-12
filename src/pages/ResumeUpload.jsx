@@ -135,10 +135,6 @@ export default function ResumeUpload() {
               style={{ padding: '14px', background: '#0984e3', color: 'white', border: 'none', borderRadius: 12, fontWeight: 600, cursor: 'pointer', fontSize: 14 }}>
               🏢 Company Matches
             </button>
-            <button onClick={() => window.location.href = '/dashboard'}
-              style={{ padding: '14px', background: '#e17055', color: 'white', border: 'none', borderRadius: 12, fontWeight: 600, cursor: 'pointer', fontSize: 14 }}>
-              💰 Salary Prediction
-            </button>
           </div>
         )}
       </div>

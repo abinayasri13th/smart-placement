@@ -4,10 +4,8 @@ export default function Dashboard() {
   const navigate = useNavigate()
 
   const stats = [
-    { icon: '📊', label: 'ATS Score', value: '78/100', color: '#6C63FF', bg: '#f0eeff' },
-    { icon: '🎯', label: 'Placement Chance', value: '82%', color: '#00b894', bg: '#e8faf5' },
-    { icon: '💰', label: 'Expected Salary', value: '8.5 LPA', color: '#e17055', bg: '#fff0ed' },
-    { icon: '🏢', label: 'Company Matches', value: '4/6', color: '#0984e3', bg: '#e8f4ff' },
+    { icon: '📊', label: 'ATS Score', value: '78/100', color: '#6C63FF' },
+    { icon: '🏢', label: 'Company Matches', value: '4/6', color: '#0984e3' },
   ]
 
   const companies = [
@@ -39,7 +37,6 @@ export default function Dashboard() {
   return (
     <div style={{ fontFamily: 'Segoe UI, sans-serif', background: '#f8f9ff', minHeight: '100vh' }}>
 
-      {/* Navbar */}
       <nav style={{ background: 'linear-gradient(135deg,#6C63FF,#4facfe)', padding: '14px 32px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <h1 style={{ color: 'white', fontSize: 22, fontWeight: 800, margin: 0 }}>🎯 PlaceAI</h1>
         <div style={{ display: 'flex', gap: 20, alignItems: 'center' }}>
@@ -50,14 +47,13 @@ export default function Dashboard() {
             { label: 'Companies', path: '/companies' },
             { label: 'Skills', path: '/skills' },
           ].map(item => (
-            <span key={item.label}
-              onClick={() => navigate(item.path)}
+            <span key={item.label} onClick={() => navigate(item.path)}
               style={{ color: 'rgba(255,255,255,0.85)', fontSize: 14, fontWeight: 500, cursor: 'pointer' }}>
               {item.label}
             </span>
           ))}
-          <div style={{ width: 36, height: 36, borderRadius: '50%', background: '#FFD700', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, color: '#1a1a2e', fontSize: 14, cursor: 'pointer' }}
-            onClick={() => navigate('/profile')}>
+          <div onClick={() => navigate('/profile')}
+            style={{ width: 36, height: 36, borderRadius: '50%', background: '#FFD700', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, color: '#1a1a2e', fontSize: 14, cursor: 'pointer' }}>
             S
           </div>
         </div>
@@ -65,15 +61,12 @@ export default function Dashboard() {
 
       <div style={{ padding: '32px' }}>
 
-        {/* Welcome */}
         <div style={{ marginBottom: 28 }}>
-          <h2 style={{ fontSize: 26, fontWeight: 800, color: '#1a1a2e', margin: '0 0 4px' }}>
-            Welcome back, Student! 👋
-          </h2>
+          <h2 style={{ fontSize: 26, fontWeight: 800, color: '#1a1a2e', margin: '0 0 4px' }}>Welcome back, Student! 👋</h2>
           <p style={{ color: '#888', fontSize: 15 }}>Here's your placement readiness overview</p>
         </div>
 
-        {/* Stats Cards */}
+        {/* Stats — only 2 cards now */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(200px,1fr))', gap: 20, marginBottom: 32 }}>
           {stats.map((s, i) => (
             <div key={i} style={{ background: 'white', borderRadius: 16, padding: '24px 20px', boxShadow: '0 4px 20px rgba(0,0,0,0.06)', borderLeft: `4px solid ${s.color}` }}>
@@ -113,8 +106,7 @@ export default function Dashboard() {
                 </span>
               </div>
             ))}
-            <button
-              onClick={() => navigate('/skills')}
+            <button onClick={() => navigate('/skills')}
               style={{ marginTop: 16, width: '100%', padding: '10px', background: 'linear-gradient(135deg,#6C63FF,#4facfe)', color: 'white', border: 'none', borderRadius: 10, fontWeight: 600, cursor: 'pointer', fontSize: 14 }}>
               View Full Skill Gap →
             </button>
@@ -127,8 +119,7 @@ export default function Dashboard() {
           <h3 style={{ fontSize: 17, fontWeight: 700, color: '#1a1a2e', marginBottom: 20 }}>⚡ Quick Actions</h3>
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
             {quickActions.map((btn, i) => (
-              <button key={i}
-                onClick={() => navigate(btn.path)}
+              <button key={i} onClick={() => navigate(btn.path)}
                 style={{ padding: '10px 20px', background: btn.color, color: 'white', border: 'none', borderRadius: 10, fontWeight: 600, cursor: 'pointer', fontSize: 14 }}>
                 {btn.label}
               </button>
